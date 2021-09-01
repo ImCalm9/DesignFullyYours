@@ -2016,7 +2016,15 @@ input::-moz-focus-inner {
 /* ===================================================================
  * # hero
  *
- * ------------------------------------------------------------------- */
+/* * ------------------------------------------------------------------- *!*/
+
+@media screen and (max-width: 778px) {
+  section[data-image-src="images/hero-bg-3000.png"]{
+    background-image: url('/DesignFullyYours/images/hero-bg-768.png');
+    height: 150vh;
+  }
+}
+
 .s-hero {
   width: 100%;
   height: 100vh;
