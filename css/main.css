@@ -2085,25 +2085,19 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-device-width: 480px) {
   section[data-image-src="images/hero-bg-3000.png"]{
     background-image: url('/images/hero-bg-768.png');
     height: 150vh;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-device-width: 768px) {
    section[data-image-src="images/hero-bg-3000.png"]{
       background-image: url('/images/hero-bg-768.png');
       height: 150vh;
   }
 }
-@media screen and (min-width: 1025px) {
-  section[data-image-src="images/hero-bg-3000.png"]{
-    background-image: url('/images/hero-bg-3000.png');
-  }
-}
-
 /* -------------------------------------------------------------------
  * ## hero social
  * ------------------------------------------------------------------- */
