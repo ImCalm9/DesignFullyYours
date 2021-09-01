@@ -2018,7 +2018,7 @@ input::-moz-focus-inner {
  *
 /* * ------------------------------------------------------------------- *!*/
 
-@media screen and (max-width: 778px) {
+@media only screen and (max-width: 768px) {
   section[data-image-src="images/hero-bg-3000.png"]{
     background-image: url('/images/hero-bg-768.png');
     height: 150vh;
