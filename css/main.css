@@ -2084,12 +2084,22 @@ input::-moz-focus-inner {
   left: -10.8rem;
   top: .55em;
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625),
+only screen and (   min--moz-device-pixel-ratio: 2.625),
+only screen and (     -o-min-device-pixel-ratio: 2.625/1),
+only screen and (        min-device-pixel-ratio: 2.625),
+only screen and (                min-resolution: 402dpi),
+only screen and (                min-resolution: 2.625dppx) {
+  section[data-image-src="images/hero-bg-3000.png"]{
+    background-image: url('/images/hero-bg-768.png');
+    height: 150vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
    section[data-image-src="images/hero-bg-3000.png"]{
       background-image: url('/images/hero-bg-768.png');
       height: 150vh;
-      width: auto;
   }
 }
 /* -------------------------------------------------------------------
