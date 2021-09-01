@@ -2089,6 +2089,7 @@ input::-moz-focus-inner {
    section[data-image-src="images/hero-bg-3000.png"]{
       background-image: url('/images/hero-bg-768.png');
       height: 150vh;
+      width: auto;
   }
 }
 /* -------------------------------------------------------------------
