@@ -2085,12 +2085,8 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
-@media only screen and (max-width: 768px) {
-  /*section[data-image-src="images/hero-bg-3000.png"]{*/
-  /*  background-image: url("/images/hero-bg-768.png");*/
-  /*  height: 150vh;*/
-  /*}*/
-    section{
+@media screen and (max-width: 768px) {
+   section[data-image-src="images/hero-bg-3000.png"]{
       background-image: url('/images/hero-bg-768.png');
       height: 150vh;
   }
