@@ -2085,15 +2085,16 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
-@media screen and (max-width: 480px) {
-  section[data-image-src="images/hero-bg-3000.png"]{
-    background-image: url('/images/hero-bg-768.png');
-    height: 150vh;
-  }
-}
+/*@media screen and (max-width: 480px) {*/
+/*  section[data-image-src="images/hero-bg-3000.png"]{*/
+/*    background-image: url('/images/hero-bg-768.png');*/
+/*    height: 150vh;*/
+/*  }*/
+/*}*/
 @media screen and (max-width: 768px) {
   section[data-image-src="images/hero-bg-3000.png"]{
-    background-image: url('/images/hero-bg-768.png');
+    /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
+    background: url('/DesignFullyYours/images/hero-bg-3000.png') no-repeat center center fixed;
     height: 150vh;
   }
 }
