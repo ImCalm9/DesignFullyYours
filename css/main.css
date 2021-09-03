@@ -2096,8 +2096,10 @@ input::-moz-focus-inner {
 and (max-height: 812px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-  background: url('/images/hero-bg-3000.png') 90% 30% fixed;
-  background-size: cover;
+  section[data-image-src="images/hero-bg-3000.png"]{
+    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
+    background-size: cover;
+  }
 }
 
 
