@@ -2088,9 +2088,16 @@ input::-moz-focus-inner {
 @media screen and (max-width: 768px) {
   section[data-image-src="images/hero-bg-3000.png"]{
     /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
-    background: url('/images/hero-bg-3000.png') 80% 10% fixed;
+    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
     background-size: cover;
   }
+}
+@media only screen and (max-width: 414px)
+and (max-height: 812px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  background: url('/images/hero-bg-3000.png') 90% 30% fixed;
+  background-size: cover;
 }
 
 
