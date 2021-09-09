@@ -2094,9 +2094,8 @@ input::-moz-focus-inner {
 /*    background-size: cover;*/
 /*  }*/
 /*}*/
-
+@media screen and (max-width: 768px) {
 @supports not (-webkit-touch-callout: none) {
-  @media screen and (max-width: 768px) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
       background-position-x: 90%;
@@ -2106,15 +2105,16 @@ input::-moz-focus-inner {
     }
   }
 }
+@media screen and (max-width: 768px) {
   @supports (-webkit-touch-callout: none) {
-      section[data-image-src="images/hero-bg-3000.png"] {
-        background: url('/images/hero-bg-3000.png');
-        background-position-x: 90% ;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-      }
+    section[data-image-src="images/hero-bg-3000.png"] {
+      background: url('/images/hero-bg-3000.png');
+      background-position-x: 90%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+    }
   }
-
+}
   /* -------------------------------------------------------------------
    * ## hero social
    * ------------------------------------------------------------------- */
