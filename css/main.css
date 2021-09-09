@@ -2103,7 +2103,6 @@ input::-moz-focus-inner {
       background-size: cover;
     }
 }
-@media screen and (max-width: 768px) {
   @supports (-webkit-touch-callout: none) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
@@ -2111,7 +2110,6 @@ input::-moz-focus-inner {
       background-repeat: no-repeat;
       background-attachment: scroll;
     }
-  }
 }
   /* -------------------------------------------------------------------
    * ## hero social
