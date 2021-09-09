@@ -2085,38 +2085,7 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
-/*@media screen and (max-width: 768px) {*/
-/*  section[data-image-src="images/hero-bg-3000.png"]{*/
-/*    !*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*!*/
-/*    background: url('/images/hero-bg-3000.png') 90% 30% fixed;*/
-/*    background-size: cover;*/
-/*  }*/
-/*}*/
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  section[data-image-src="images/hero-bg-3000.png"]{
-    /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
-    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
-    background-size: cover;
-  }
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-  section[data-image-src="images/hero-bg-3000.png"]{
-    /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
-    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
-    background-size: cover;
-  }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
+@media screen and (max-width: 768px) {
   section[data-image-src="images/hero-bg-3000.png"]{
     /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
     background: url('/images/hero-bg-3000.png') 90% 30% fixed;
