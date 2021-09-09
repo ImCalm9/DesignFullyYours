@@ -2095,21 +2095,12 @@ input::-moz-focus-inner {
 /*  }*/
 /*}*/
 
-@supports ( -webkit-touch-callout : none) {
-  section[data-image-src="images/hero-bg-3000.png"] {
-    background: url('/images/hero-bg-3000.png');
-    background-position-x: 90%;
-    background-position-y: 30%;
-    background-attachment: scroll;
-  }
-}
-
 @media screen and (max-width: 768px) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
       background-position-x: 90%;
       background-position-y: 30%;
-      background-attachment: fixed;
+      background-attachment: scroll !important;
       background-size: cover;
     }
 }
