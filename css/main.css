@@ -2089,8 +2089,6 @@ input::-moz-focus-inner {
   section[data-image-src="images/hero-bg-3000.png"]{
     background: url('/images/hero-bg-3000.png');
     background-position-x: 90%;
-    background-position-y: 30%;
-    background-attachment: fixed;
     background-size: cover;
   }
 }
