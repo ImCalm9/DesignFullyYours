@@ -2098,7 +2098,7 @@ input::-moz-focus-inner {
 @media screen and (max-width: 768px) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
-      background-position: right center;
+      background-position: right center !important;
       background-attachment: scroll !important;
       background-size: cover;
     }
