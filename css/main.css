@@ -2095,7 +2095,6 @@ input::-moz-focus-inner {
 /*  }*/
 /*}*/
 @media screen and (max-width: 768px) {
-@supports not (-webkit-touch-callout: none) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
       background-position-x: 90%;
@@ -2103,7 +2102,6 @@ input::-moz-focus-inner {
       background-attachment: fixed;
       background-size: cover;
     }
-  }
 }
 @media screen and (max-width: 768px) {
   @supports (-webkit-touch-callout: none) {
