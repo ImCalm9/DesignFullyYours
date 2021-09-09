@@ -2088,7 +2088,7 @@ input::-moz-focus-inner {
 @media screen and (max-width: 768px) {
   section[data-image-src="images/hero-bg-3000.png"]{
     /*background-image: url('/DesignFullyYours/images/hero-bg-768.png');*/
-    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
+    background: url('/images/hero-bg-768.png') 90% 30% fixed;
     background-size: cover;
   }
 }
@@ -2097,7 +2097,7 @@ and (max-height: 812px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
   section[data-image-src="images/hero-bg-3000.png"]{
-    background: url('/images/hero-bg-3000.png') 90% 30% fixed;
+    background: url('/images/hero-bg-768.png') 90% 30% fixed;
     background-size: cover;
   }
 }
