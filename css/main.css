@@ -2085,29 +2085,39 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
+/*@media screen and (max-width: 768px) {*/
+/*  section[data-image-src="images/hero-bg-3000.png"]{*/
+/*    background: url('/images/hero-bg-3000.png');*/
+/*    background-position-x: 90% ;*/
+/*    background-position-y: 30%;*/
+/*    background-attachment: fixed;*/
+/*    background-size: cover;*/
+/*  }*/
+/*}*/
+
 @media screen and (max-width: 768px) {
-  section[data-image-src="images/hero-bg-3000.png"]::after{
-    background: url('/images/hero-bg-3000.png');
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    background-position-x: 80%;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  @supports not (-webkit-touch-callout: none) {
+    section[data-image-src="images/hero-bg-3000.png"] {
+          background: url('/images/hero-bg-3000.png');
+          background-position-x: 90% ;
+          background-position-y: 30%;
+          background-attachment: fixed;
+          background-size: cover;
   }
 }
+  @media screen and (max-width: 768px) {
+    @supports (-webkit-touch-callout: none) {
+      section[data-image-src="images/hero-bg-3000.png"] {
+        background: url('/images/hero-bg-3000.png');
+        background-position-x: 90% ;
+        background-attachment: scroll;
+      }
+    }
+  }
 
-
-
-/* -------------------------------------------------------------------
- * ## hero social
- * ------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------
+   * ## hero social
+   * ------------------------------------------------------------------- */
 .hero-social {
   list-style: none;
   display: -ms-flexbox;
