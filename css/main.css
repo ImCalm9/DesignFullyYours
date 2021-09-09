@@ -2093,6 +2093,13 @@ input::-moz-focus-inner {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  section[data-image-src="images/hero-bg-3000.png"]{
+    background: url('/images/hero-bg-3000.png') center top no-repeat scroll;;
+    background-size: auto 100vh;
+  }
+}
+
 
 /* -------------------------------------------------------------------
  * ## hero social
