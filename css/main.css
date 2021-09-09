@@ -2103,14 +2103,7 @@ input::-moz-focus-inner {
       background-size: cover;
     }
 }
-  @supports (-webkit-touch-callout: none) {
-    section[data-image-src="images/hero-bg-3000.png"] {
-      background: url('/images/hero-bg-3000.png');
-      background-position-x: 90%;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-    }
-}
+
   /* -------------------------------------------------------------------
    * ## hero social
    * ------------------------------------------------------------------- */
