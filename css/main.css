@@ -2085,20 +2085,10 @@ input::-moz-focus-inner {
   top: .55em;
 }
 
-/*@media screen and (max-width: 768px) {*/
-/*  section[data-image-src="images/hero-bg-3000.png"]{*/
-/*    background: url('/images/hero-bg-3000.png');*/
-/*    background-position-x: 90% ;*/
-/*    background-position-y: 30%;*/
-/*    background-attachment: fixed;*/
-/*    background-size: cover;*/
-/*  }*/
-/*}*/
-
 @media screen and (max-width: 768px) {
     section[data-image-src="images/hero-bg-3000.png"] {
       background: url('/images/hero-bg-3000.png');
-      background-position: right center !important;
+      background-position: 80% center !important;
       background-attachment: scroll !important;
       background-size: cover;
     }
